@@ -101,12 +101,6 @@ ui.event = {
 		ui.menuconfig.restore();
 
 		ui.listener.setListeners(ui.puzzle);
-
-		if (pzpr.env.OS.Android) {
-			ui.misc.modifyCSS({
-				"body, .btn": { fontFamily: "Verdana, Arial, sans-serif" }
-			});
-		}
 	},
 	onunload_func: function() {
 		ui.menuconfig.save();

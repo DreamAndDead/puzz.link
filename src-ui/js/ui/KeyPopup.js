@@ -1284,14 +1284,6 @@ ui.keypopup = {
 			img.style.left = "-" + obj.x * dsize + "px";
 		}
 
-		ui.misc.modifyCSS({
-			"div.kpcell": {
-				width: "" + dsize + "px",
-				height: "" + dsize + "px",
-				lineHeight: "" + dsize + "px"
-			},
-			"span.kpnum": { fontSize: "" + tsize + "px" }
-		});
 	},
 
 	dataurl: {
