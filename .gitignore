@@ -2,7 +2,6 @@ dist
 node_modules
 .DS_Store
 .eslintcache
-git.json
 
 .vercel
 .nyc_output
